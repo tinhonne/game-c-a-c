@@ -1,0 +1,40 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#gameBoard{
+    background-color: rgb(8, 119, 193);
+}
+
+#gameDetail{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#playBoard{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(29, 36, 243);
+    display: grid;
+    grid-template-columns: repeat(20, 20px);
+    grid-template-rows: repeat(20, 20px);
+}
+
+.snake {
+    background-color: green;
+}
+
+.food{
+    background-color: yellow;
+}
